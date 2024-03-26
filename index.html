@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="img1.jpg" alt="Picture of a mountain range" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img2.jpg" alt="Picture of some palm trees with an island in the background" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img3.jpg" alt="Picture of a forested road" style="width:100%">
+  </div>
+</div>
+<div>
+  <h1 id="hello">Hello</h1>
+  <p>Hover over the "Hello" text above</p>
+</div>
+<br><br>
+<div>
+  <ol>
+    <li>This is the first child of the ol element</li>
+    <li>This is the 2nd child</li>
+    <li>This is the 3rd child</li>
+    <li>This is the 4th child</li>
+    <li>This is the 5th child</li>
+    <li>This is the 6th child</li>
+  </ol>
+  <p>The first-child of the ol above is bold.<br>Every even li above has a background-color of blueviolet.<br>The nth-child(3) of the ol above has a red background-color.</p>
+</div>
+</body>
+</html>

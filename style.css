@@ -1,0 +1,25 @@
+body {  /* Body tag selector */
+    background-color: violet;   /* Sets the background-color to violet */
+}
+
+#hello {    /* h1 Tag selector */
+    color: blue;    /* Sets the color of the h1 element to blue */
+}
+
+#hello:hover {  /* h1 Selector with :hover pseudoclass */
+    color: white;   /* Sets the color of the h1 element to white when it is hovered over */
+    background-color: blueviolet;   /* Sets the background-color of the h1 element to blueviolet when hovered over */
+}
+
+
+ol > :first-child {     /* Selects first-child of the ol element */
+    font-weight: bold;  /* Applies the bold font-weight to the first-child */
+}
+
+ol > :nth-child(even) {               /* Selects evey even child of the ol element */
+    background-color: blueviolet;   /* Sets blueviolet to the background-color property */
+}
+
+ol > :nth-child(3) {            /* Selects the 3rd child of the ol element */
+    background-color: red;    /* Sets the background-color to red */
+}
